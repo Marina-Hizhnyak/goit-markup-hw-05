@@ -611,7 +611,7 @@ ul {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  opacity: 1;
+  opacity: 0;
 }
 .sample-card:hover .overlay {
   opacity: 1;
