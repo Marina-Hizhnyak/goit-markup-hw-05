@@ -620,3 +620,6 @@ ul {
   opacity: 1;
   transform: translate(0);
 }
+.sample-card {
+  overflow: hidden;
+}
