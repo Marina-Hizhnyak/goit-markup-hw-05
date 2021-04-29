@@ -648,15 +648,23 @@ ul {
   height: 581px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   border-radius: 4px;
   background-color: var(--bg-white-color);
 }
 .button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
+  /* background-color: var(--title-text-color); */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 .icon-close {
-  position: absolute;
-  z-index: 1;
+  background-color: var(--h1-text-color);
 }
